@@ -9,8 +9,8 @@ router.get('/empleados/:id', getEmpleado);
 
 router.post('/empleados', createEmpleado);
 
-router.put('/empleados', updateEmpleado);
+router.patch('/empleados/:id', updateEmpleado);
 
-router.delete('/empleados', deleteEmpleado);
+router.delete('/empleados/:id', deleteEmpleado);
 
 export default router;
